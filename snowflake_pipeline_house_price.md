@@ -67,6 +67,7 @@ SELECT * FROM house_price LIMIT 10;
 Les modèles de Machine Learning nécessitent des données numériques.
 Les variables catégorielles sont donc transformées en valeurs numériques.
 
+```sql
 CREATE OR REPLACE VIEW house_price_ml AS
 SELECT
     price,
@@ -87,3 +88,16 @@ SELECT
         ELSE 0
     END AS furnishingstatus
 FROM house_price;
+```
+## Entraînement des modèles de Machine Learning
+
+Les données préparées sont chargées en Python à l'aide de Snowpark,
+puis utilisées pour entraîner plusieurs modèles de Machine Learning.
+
+```sql
+df = session.table("HOUSE_PRICE_DB.RAW.HOUSE_PRICE_ML")
+pdf = df.to_pandas()
+
+X = pdf.drop(columns=["PRICE"])
+y = pdf["PRICE"]
+```
