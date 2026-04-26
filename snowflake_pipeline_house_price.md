@@ -30,7 +30,7 @@ FROM @house_price_stage;
 
 ```
 
-Data Engineering (Transformation des données)
+## Data Engineering (Transformation des données)
 Les données étant fournies au format JSON, elles sont transformées en une table
 relationnelle exploitable grâce à la fonction FLATTEN.
 
