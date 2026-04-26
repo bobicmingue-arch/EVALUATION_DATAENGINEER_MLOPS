@@ -21,3 +21,10 @@ Les données sont stockées dans un bucket Amazon S3 et chargées dans Snowflake
 ```sql
 CREATE OR REPLACE STAGE house_price_stage
 URL='s3://logbrain-datalake/datasets/house_price/';
+
+CREATE OR REPLACE TABLE house_price_json (
+    data VARIANT
+);
+
+COPY INTO house_price_json
+FROM @house_price_stage;
