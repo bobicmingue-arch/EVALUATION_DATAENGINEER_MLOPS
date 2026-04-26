@@ -101,3 +101,22 @@ pdf = df.to_pandas()
 X = pdf.drop(columns=["PRICE"])
 y = pdf["PRICE"]
 ```
+
+## Évaluation des performances des modèles
+
+Les modèles sont évalués à l'aide de la métrique MAE (Mean Absolute Error)
+
+```sql
+mae_lr = mean_absolute_error(y_test, y_pred_lr)
+mae_rf = mean_absolute_error(y_test, y_pred_rf)
+```
+
+## Application du modèle sur le dataset
+
+Le modèle Random Forest, présentant les meilleures performances,
+est appliqué sur l'ensemble du jeu de données afin de générer des prédictions.
+
+```sql
+predictions = rf_model.predict(X)
+SELECT * FROM HOUSE_PRICE_PREDICTIONS;
+```
