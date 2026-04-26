@@ -120,3 +120,10 @@ est appliqué sur l'ensemble du jeu de données afin de générer des prédictio
 predictions = rf_model.predict(X)
 SELECT * FROM HOUSE_PRICE_PREDICTIONS;
 ```
+
+## Conclusion
+
+Ce projet a permis de mettre en place un pipeline complet de Data Engineering
+et de Machine Learning dans Snowflake. Le modèle Random Forest a été sélectionné
+pour ses meilleures performances et utilisé pour générer des prédictions
+stockées dans Snowflake.
