@@ -34,6 +34,8 @@ Data Engineering (Transformation des données)
 Les données étant fournies au format JSON, elles sont transformées en une table
 relationnelle exploitable grâce à la fonction FLATTEN.
 
+```sql
+
 CREATE OR REPLACE TABLE house_price AS
 SELECT
     value:price::NUMBER AS price,
@@ -51,3 +53,4 @@ SELECT
     value:furnishingstatus::STRING AS furnishingstatus
 FROM house_price_json,
 LATERAL FLATTEN(input => data);
+```
