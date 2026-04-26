@@ -66,3 +66,24 @@ SELECT * FROM house_price LIMIT 10;
 
 Les modèles de Machine Learning nécessitent des données numériques.
 Les variables catégorielles sont donc transformées en valeurs numériques.
+
+CREATE OR REPLACE VIEW house_price_ml AS
+SELECT
+    price,
+    area,
+    bedrooms,
+    bathrooms,
+    stories,
+    CASE WHEN mainroad = 'yes' THEN 1 ELSE 0 END AS mainroad,
+    CASE WHEN guestroom = 'yes' THEN 1 ELSE 0 END AS guestroom,
+    CASE WHEN basement = 'yes' THEN 1 ELSE 0 END AS basement,
+    CASE WHEN hotwaterheating = 'yes' THEN 1 ELSE 0 END AS hotwaterheating,
+    CASE WHEN airconditioning = 'yes' THEN 1 ELSE 0 END AS airconditioning,
+    parking,
+    CASE WHEN prefarea = 'yes' THEN 1 ELSE 0 END AS prefarea,
+    CASE
+        WHEN furnishingstatus = 'furnished' THEN 2
+        WHEN furnishingstatus = 'semi-furnished' THEN 1
+        ELSE 0
+    END AS furnishingstatus
+FROM house_price;
