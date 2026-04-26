@@ -61,3 +61,8 @@ Quelques requêtes simples sont utilisées afin de mieux comprendre les données
 SELECT COUNT(*) FROM house_price;
 SELECT * FROM house_price LIMIT 10;
 ```
+
+## Préparation des données pour le Machine Learning
+
+Les modèles de Machine Learning nécessitent des données numériques.
+Les variables catégorielles sont donc transformées en valeurs numériques.
