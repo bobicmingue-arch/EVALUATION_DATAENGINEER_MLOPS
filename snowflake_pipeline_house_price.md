@@ -55,7 +55,7 @@ FROM house_price_json,
 LATERAL FLATTEN(input => data);
 ```
 
-Exploration des données
+## Exploration des données
 Quelques requêtes simples sont utilisées afin de mieux comprendre les données.
 ```sql
 SELECT COUNT(*) FROM house_price;
