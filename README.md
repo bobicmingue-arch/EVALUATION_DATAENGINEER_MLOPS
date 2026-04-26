@@ -8,7 +8,7 @@ Ce projet a pour objectif de construire un pipeline complet de **Data Engineerin
 
 ## Membres du groupe
 
-Projet réalisé dans le cadre du MBA ESG – Architecture Big Data
+Projet réalisé dans le cadre du MBA ESG – DATA_ENGINEER_MLOPS
 
 - **MINGUE KEPSI Bobic**
 - **ADONI Allika Mireille**
