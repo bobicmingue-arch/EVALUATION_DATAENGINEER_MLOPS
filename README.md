@@ -6,13 +6,28 @@ Ce projet a pour objectif de construire un pipeline complet de **Data Engineerin
 
 ---
 
-## Membres du groupe
+## Répartition des tâches au sein du groupe
 
-Projet réalisé dans le cadre du MBA ESG – DATA_ENGINEER_MLOPS
+Afin de mener à bien le projet, les tâches ont été réparties entre les membres du groupe comme suit :
 
-- **MINGUE KEPSI Bobic**
-- **ADONI Allika Mireille**
-- **TAGNE KAMGHEM Leonel**
+### ADONI Allika Mireille
+- Mise en place de l’environnement Snowflake
+- Ingestion des données depuis Amazon S3 vers Snowflake
+- Transformation des données JSON en tables relationnelles (Data Engineering)
+- Préparation des données pour le Machine Learning (feature engineering)
+
+  ### MINGUE KEPSI Bobic
+- Entraînement des modèles de Machine Learning (Régression Linéaire, Random Forest)
+- Évaluation des performances des modèles (MAE)
+- Comparaison des résultats et sélection du meilleur modèle
+- Application du modèle sur le dataset (inférence)
+
+### TAGNE KAMGHEM Leonel
+- Documentation du projet (README)
+- Analyse et interprétation des performances du modèle
+- Mise en place de l’application Streamlit pour la visualisation des résultats
+- Structuration du dépôt GitHub et préparation du livrable final
+
 
 ---
 
