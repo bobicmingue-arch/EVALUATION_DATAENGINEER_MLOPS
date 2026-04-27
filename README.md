@@ -109,6 +109,11 @@ L’application Streamlit sert d’interface de démonstration et de visualisati
 
 ---
 
+## Résultats
+
+Une capture des prédictions générées par le modèle est disponible dans le dossier `screenshots/`.
+
+
 ## Conclusion
 
 Ce projet démontre la mise en place d’un pipeline complet de **Data Engineering** et de **Machine Learning** dans Snowflake.  
