@@ -1,6 +1,6 @@
 # Évaluation Data Engineering & MLOps – Prédiction du prix des maisons
 
-Projet réalisé dans le cadre du **MBA ESG – Architecture Big Data**.
+Projet réalisé dans le cadre du **MBA ESG – DATA_ENGINEER_MLOPS**.
 
 Ce projet a pour objectif de construire un pipeline complet de **Data Engineering** et de **Machine Learning** directement dans Snowflake afin de prédire le prix de vente d’une maison à partir de ses caractéristiques.
 
