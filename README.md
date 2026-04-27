@@ -16,7 +16,7 @@ Afin de mener à bien le projet, les tâches ont été réparties entre les memb
 - Transformation des données JSON en tables relationnelles (Data Engineering)
 - Préparation des données pour le Machine Learning (feature engineering)
 
-  ### MINGUE KEPSI Bobic
+ ### MINGUE KEPSI Bobic
 - Entraînement des modèles de Machine Learning (Régression Linéaire, Random Forest)
 - Évaluation des performances des modèles (MAE)
 - Comparaison des résultats et sélection du meilleur modèle
