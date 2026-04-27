@@ -10,19 +10,19 @@ Ce projet a pour objectif de construire un pipeline complet de **Data Engineerin
 
 Afin de mener à bien le projet, les tâches ont été réparties entre les membres du groupe comme suit :
 
-### ADONI Allika Mireille
+### ADONI Allika Mireille  (Data Engineering / préparation des données) 
 - Mise en place de l’environnement Snowflake
 - Ingestion des données depuis Amazon S3 vers Snowflake
 - Transformation des données JSON en tables relationnelles 
 - Préparation des données pour le Machine Learning 
 
- ### MINGUE KEPSI Bobic
+ ### MINGUE KEPSI Bobic ( Machine Learning / évaluation)
 - Entraînement des modèles de Machine Learning (Régression Linéaire, Random Forest)
 - Évaluation des performances des modèles 
 - Comparaison des résultats et sélection du meilleur modèle
 - Application du modèle sur le dataset 
 
-### TAGNE KAMGHEM Leonel
+### TAGNE KAMGHEM Leonel ( MLOps)
 - Documentation du projet (README)
 - Analyse et interprétation des performances du modèle
 - Mise en place de l’application Streamlit pour la visualisation des résultats
