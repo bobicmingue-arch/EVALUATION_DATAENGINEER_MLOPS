@@ -13,14 +13,14 @@ Afin de mener à bien le projet, les tâches ont été réparties entre les memb
 ### ADONI Allika Mireille
 - Mise en place de l’environnement Snowflake
 - Ingestion des données depuis Amazon S3 vers Snowflake
-- Transformation des données JSON en tables relationnelles (Data Engineering)
-- Préparation des données pour le Machine Learning (feature engineering)
+- Transformation des données JSON en tables relationnelles 
+- Préparation des données pour le Machine Learning 
 
  ### MINGUE KEPSI Bobic
 - Entraînement des modèles de Machine Learning (Régression Linéaire, Random Forest)
-- Évaluation des performances des modèles (MAE)
+- Évaluation des performances des modèles 
 - Comparaison des résultats et sélection du meilleur modèle
-- Application du modèle sur le dataset (inférence)
+- Application du modèle sur le dataset 
 
 ### TAGNE KAMGHEM Leonel
 - Documentation du projet (README)
