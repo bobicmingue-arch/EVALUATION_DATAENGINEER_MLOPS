@@ -10,7 +10,7 @@ Ce projet a pour objectif de construire un pipeline complet de **Data Engineerin
 
 Afin de mener à bien le projet, les tâches ont été réparties entre les membres du groupe comme suit :
 
-### TAGNE KAMGHEM Leonel(Data Engineering / préparation des données) 
+### TAGNE KAMGHEM Leonel (Data Engineering / préparation des données) 
 - Mise en place de l’environnement Snowflake
 - Ingestion des données depuis Amazon S3 vers Snowflake
 - Transformation des données JSON en tables relationnelles 
