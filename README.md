@@ -16,7 +16,7 @@ Afin de mener à bien le projet, les tâches ont été réparties entre les memb
 - Transformation des données JSON en tables relationnelles 
 - Préparation des données pour le Machine Learning 
 
- ### MINGUE KEPSI Bobic ( Machine Learning / évaluation)
+ ### MINGUE KEPSI Bobic ( Data Scientist / évaluation)
 - Entraînement des modèles de Machine Learning (Régression Linéaire, Random Forest)
 - Évaluation des performances des modèles 
 - Comparaison des résultats et sélection du meilleur modèle
